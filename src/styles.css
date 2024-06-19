@@ -1,0 +1,49 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  /* Loader styles */
+  .loader {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  /* Error message styles */
+  .error {
+    display: none;
+    color: red;
+    margin-top: 20px;
+  }
+  
+  /* Breed select styles */
+  .breed-select {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Cat info styles */
+  .cat-info {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .cat-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
